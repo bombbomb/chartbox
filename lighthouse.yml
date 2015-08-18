@@ -7,4 +7,4 @@ containers:
    cpu: 100%
    memory: 100%
    ports:
-   - "http://3003:http://3003:3003"
+   - "http://80:http://80:80"

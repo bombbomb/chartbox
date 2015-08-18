@@ -1,0 +1,24 @@
+{
+  "name": "chartbox",
+  "version": "1.0.0",
+  "description": "This is a wrapper for Highcharts.",
+  "main": "chartbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bombbomb/chartbox.git"
+  },
+  "author": "pmcdavid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bombbomb/chartbox/issues"
+  },
+  "homepage": "https://github.com/bombbomb/chartbox",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.12.4",
+    "highcharts": "0.0.9"
+  }
+}
