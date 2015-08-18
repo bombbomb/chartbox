@@ -1,0 +1,10 @@
+metadata:
+ name: chartbox
+ desiredCount: 2
+containers:
+ chartbox:
+   build: ./
+   cpu: 100%
+   memory: 100%
+   ports:
+   - "http://3003:http://3003:3003"
