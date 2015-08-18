@@ -21,6 +21,6 @@ RUN ln -s /opt/phantomjs/bin/phantomjs /usr/bin/phantomjs
 
 RUN git clone https://github.com/highslide-software/highcharts.com.git /opt/highcharts
 
-EXPOSE 3003
+EXPOSE 80
 
-ENTRYPOINT ["phantomjs", "/opt/highcharts/exporting-server/phantomjs/highcharts-convert.js", "-host", "0.0.0.0", "-port", "3003"]
+ENTRYPOINT ["phantomjs", "/opt/highcharts/exporting-server/phantomjs/highcharts-convert.js", "-host", "0.0.0.0", "-port", "80"]
